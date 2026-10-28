@@ -1,157 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
   </head>
+  
   <body>
+    
     <div style="display: flex; flex-direction: row; align-items: flex-start">
+      
       <header style="text-align: center; font-size: 500%">A.R.T. Dashboard</header>
+      
     </div>
-    
-    <!-- <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top: 40px">
-      
-      <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px">
-        <header style="text-align: center; font-size: 200%">Bookmarked Events</header>
 
-        <div style="display: flex; align-items: flex-end; gap: 20px; height: 600px; border-bottom: 2px solid #333; padding: 10px;">
+      <div style="display: flex; flex-direction: row; align-items: flex-end; gap: 15px">
+        
+        <table border="1" cellpadding="10" cellspacing="0" style="width: 35%; text-align: center;">
   
-          <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
-            <div style="background-color: #f0f0f0; width: 80px; height: 600px; border-radius: 4px 4px 0 0;"></div>
-            <span>Event</span>
-          </div>
-        
-          <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
-            <div style="background-color: #f0f0f0; width: 80px; height: 600px; border-radius: 4px 4px 0 0;"></div>
-            <span>Time</span>
-          </div>
-        
-          <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
-            <div style="background-color: #f0f0f0; width: 140px; height: 600px; border-radius: 4px 4px 0 0;"></div>
-            <span>Description</span>
-          </div>
-        
-        </div>
-        
-      </div> -->
+          <colgroup>
+            <col style="width: 25%">
+            <col style="width: 20%">
+            <col style="width: 55%">
+          </colgroup>
+          
+          <!-- Top Row: Headers / Labels -->
+          <thead>
+            <tr>
+              <th>Event</th>
+              <th>Time</th>
+              <th>Description</th>
+            </tr>
+          </thead>
       
-      <!-- <div style="display: flex; flex-direction: column; align-items: center; gap: 15px">
-        <header style="text-align: center; font-size: 200%">Saved Resources</header>
-
-        <div style="display: flex; align-items: flex-end; gap: 20px; height: 600px; border-bottom: 2px solid #333; padding: 10px;">
+          <!-- Body Rows: Dividers and Content -->
+          <tbody>
+            <!-- Row 1 -->
+            <tr>
+              <td>Row 1, Item A</td>
+              <td>Row 1, Item B</td>
+              <td>Row 1, Item C</td>
+            </tr>
+      
+            <!-- Row 2 -->
+            <tr>
+              <td>Row 2, Item A</td>
+              <td>Row 2, Item B</td>
+              <td>Row 2, Item C</td>
+            </tr>
+      
+            <!-- Row 3 -->
+            <tr>
+              <td>Row 3, Item A</td>
+              <td>Row 3, Item B</td>
+              <td>Row 3, Item C</td>
+            </tr>
+          </tbody>
+      
+        </table>
+      
+        <table border="1" cellpadding="10" cellspacing="0" style="width: 35%; text-align: center;">
   
-          <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
-            <div style="background-color: #f0f0f0; width: 80px; height: 600px; border-radius: 4px 4px 0 0;"></div>
-            <span>Resource</span>
-          </div>
-        
-          <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
-            <div style="background-color: #f0f0f0; width: 80px; height: 600px; border-radius: 4px 4px 0 0;"></div>
-            <span>Link</span>
-          </div>
-        
-          <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
-            <div style="background-color: #f0f0f0; width: 140px; height: 600px; border-radius: 4px 4px 0 0;"></div>
-            <span>Description</span>
-          </div>
-        
-        </div>
-        
-      </div> -->
-
-      <table border="1" cellpadding="10" cellspacing="0" style="width: 35%; text-align: center;">
-
-        <colgroup>
-          <col style="width: 25%">
-          <col style="width: 20%">
-          <col style="width: 55%">
-        </colgroup>
-        
-        <!-- Top Row: Headers / Labels -->
-        <thead>
-          <tr>
-            <th>Event</th>
-            <th>Time</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-    
-        <!-- Body Rows: Dividers and Content -->
-        <tbody>
-          <!-- Row 1 -->
-          <tr>
-            <td>Row 1, Item A</td>
-            <td>Row 1, Item B</td>
-            <td>Row 1, Item C</td>
-          </tr>
-    
-          <!-- Row 2 -->
-          <tr>
-            <td>Row 2, Item A</td>
-            <td>Row 2, Item B</td>
-            <td>Row 2, Item C</td>
-          </tr>
-    
-          <!-- Row 3 -->
-          <tr>
-            <td>Row 3, Item A</td>
-            <td>Row 3, Item B</td>
-            <td>Row 3, Item C</td>
-          </tr>
-        </tbody>
-    
-      </table>
-    
-      <table border="1" cellpadding="10" cellspacing="0" style="width: 35%; text-align: center;">
-
-        <colgroup>
-          <col style="width: 25%">
-          <col style="width: 20%">
-          <col style="width: 55%">
-        </colgroup>
-        
-        <!-- Top Row: Headers / Labels -->
-        <thead>
-          <tr>
-            <th>Resource</th>
-            <th>Link</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-    
-        <!-- Body Rows: Dividers and Content -->
-        <tbody>
-          <!-- Row 1 -->
-          <tr>
-            <td>Row 1, Item A</td>
-            <td>Row 1, Item B</td>
-            <td>Row 1, Item C</td>
-          </tr>
-    
-          <!-- Row 2 -->
-          <tr>
-            <td>Row 2, Item A</td>
-            <td>Row 2, Item B</td>
-            <td>Row 2, Item C</td>
-          </tr>
-    
-          <!-- Row 3 -->
-          <tr>
-            <td>Row 3, Item A</td>
-            <td>Row 3, Item B</td>
-            <td>Row 3, Item C</td>
-          </tr>
-        </tbody>
-    
-      </table>
+          <colgroup>
+            <col style="width: 25%">
+            <col style="width: 20%">
+            <col style="width: 55%">
+          </colgroup>
+          
+          <!-- Top Row: Headers / Labels -->
+          <thead>
+            <tr>
+              <th>Resource</th>
+              <th>Link</th>
+              <th>Description</th>
+            </tr>
+          </thead>
       
-      <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 15px">
-        <input type="text" name="search_field" placeholder="Search" style="width: 300px; height: 40px; ">
-        <div style="background-color: #f0f0f0; border: 2px solid #333; padding: 20px; border-radius: 8px; width: 30%; height: 600px;">
-          Search Results
+          <!-- Body Rows: Dividers and Content -->
+          <tbody>
+            <!-- Row 1 -->
+            <tr>
+              <td>Row 1, Item A</td>
+              <td>Row 1, Item B</td>
+              <td>Row 1, Item C</td>
+            </tr>
+      
+            <!-- Row 2 -->
+            <tr>
+              <td>Row 2, Item A</td>
+              <td>Row 2, Item B</td>
+              <td>Row 2, Item C</td>
+            </tr>
+      
+            <!-- Row 3 -->
+            <tr>
+              <td>Row 3, Item A</td>
+              <td>Row 3, Item B</td>
+              <td>Row 3, Item C</td>
+            </tr>
+          </tbody>
+      
+        </table>
+        
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 15px">
+          
+          <input type="text" name="search_field" placeholder="Search" style="width: 300px; height: 40px; ">
+          <div style="background-color: #f0f0f0; border: 2px solid #333; padding: 20px; border-radius: 8px; width: 30%; height: 600px;">
+            Search Results
+          </div>
+          
         </div>
+
       </div>
-      
+          
     </div>
+    
   </body>
+  
 </html>
